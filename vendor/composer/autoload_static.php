@@ -159,6 +159,9 @@ class ComposerStaticInitaabe46ab1437c25f330ce304b29e382a
         'F' => 
         array (
             'Franzl\\Middleware\\Whoops\\' => 25,
+            'FoF\\UserDirectory\\' => 18,
+            'FoF\\Links\\' => 10,
+            'FoF\\Linguist\\' => 13,
             'Flarum\\Tags\\' => 12,
             'Flarum\\Suspend\\' => 15,
             'Flarum\\Subscriptions\\' => 21,
@@ -191,6 +194,10 @@ class ComposerStaticInitaabe46ab1437c25f330ce304b29e382a
         'C' => 
         array (
             'Carbon\\' => 7,
+        ),
+        'A' => 
+        array (
+            'AlexanderOMara\\FlarumGravatar\\' => 30,
         ),
     );
 
@@ -491,6 +498,18 @@ class ComposerStaticInitaabe46ab1437c25f330ce304b29e382a
         array (
             0 => __DIR__ . '/..' . '/franzl/whoops-middleware/src',
         ),
+        'FoF\\UserDirectory\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/user-directory/src',
+        ),
+        'FoF\\Links\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/links/src',
+        ),
+        'FoF\\Linguist\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/linguist/src',
+        ),
         'Flarum\\Tags\\' => 
         array (
             0 => __DIR__ . '/..' . '/flarum/tags/src',
@@ -582,6 +601,10 @@ class ComposerStaticInitaabe46ab1437c25f330ce304b29e382a
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+        ),
+        'AlexanderOMara\\FlarumGravatar\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/alexanderomara/flarum-gravatar/src',
         ),
     );
 

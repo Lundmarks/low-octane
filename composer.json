@@ -43,12 +43,13 @@
         "docs": "https://flarum.org/docs/"
     },
     "require": {
-        "flarum/core": "^0.1.0",
+        "alexanderomara/flarum-gravatar": "^1.2",
         "flarum/approval": "^0.1.0",
         "flarum/bbcode": "^0.1.0",
+        "flarum/core": "^0.1.0",
         "flarum/emoji": "^0.1.0",
-        "flarum/lang-english": "^0.1.0",
         "flarum/flags": "^0.1.0",
+        "flarum/lang-english": "^0.1.0",
         "flarum/likes": "^0.1.0",
         "flarum/lock": "^0.1.0",
         "flarum/markdown": "^0.1.0",
@@ -59,7 +60,14 @@
         "flarum/sticky": "^0.1.0",
         "flarum/subscriptions": "^0.1.0",
         "flarum/suspend": "^0.1.0",
-        "flarum/tags": "^0.1.0"
+        "flarum/tags": "^0.1.0",
+        "fof/linguist": "^0.5.0",
+        "fof/links": "^0.5.0",
+        "fof/user-directory": "^0.5.0",
+        "isaced/flarum-ext-email-verification-switch": "^0.1.3",
+        "kakifrucht/flarum-de": "^0.13.1",
+        "taddis/flarum-extensions-swedish": "^1.0",
+        "taddis/flarum-swedish": "^1.0"
     },
     "config": {
         "preferred-install": "dist",

@@ -1,0 +1,35 @@
+{
+    "name": "taddis/flarum-swedish",
+    "type": "flarum-extension",
+    "description": "Swedish language extension for flarum.",
+    "keywords": ["extension", "flarum", "language", "locale", "swedish", "translation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tobias Karlsson",
+            "email": "taddis@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/taddis/flarum-swedish/issues",
+        "source": "https://github.com/taddis/flarum-swedish"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.14"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Swedish for Flarum",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "sv",
+            "title": "Svenska"
+        }
+    }
+}

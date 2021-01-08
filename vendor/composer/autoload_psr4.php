@@ -79,6 +79,9 @@ return array(
     'Illuminate\\Bus\\' => array($vendorDir . '/illuminate/bus'),
     'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
     'Franzl\\Middleware\\Whoops\\' => array($vendorDir . '/franzl/whoops-middleware/src'),
+    'FoF\\UserDirectory\\' => array($vendorDir . '/fof/user-directory/src'),
+    'FoF\\Links\\' => array($vendorDir . '/fof/links/src'),
+    'FoF\\Linguist\\' => array($vendorDir . '/fof/linguist/src'),
     'Flarum\\Tags\\' => array($vendorDir . '/flarum/tags/src'),
     'Flarum\\Suspend\\' => array($vendorDir . '/flarum/suspend/src'),
     'Flarum\\Subscriptions\\' => array($vendorDir . '/flarum/subscriptions/src'),
@@ -102,4 +105,5 @@ return array(
     'Doctrine\\Common\\' => array($vendorDir . '/doctrine/event-manager/lib/Doctrine/Common'),
     'Dflydev\\FigCookies\\' => array($vendorDir . '/dflydev/fig-cookies/src/Dflydev/FigCookies'),
     'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon'),
+    'AlexanderOMara\\FlarumGravatar\\' => array($vendorDir . '/alexanderomara/flarum-gravatar/src'),
 );
