@@ -160,6 +160,8 @@ class ComposerStaticInitaabe46ab1437c25f330ce304b29e382a
         array (
             'Franzl\\Middleware\\Whoops\\' => 25,
             'FoF\\UserDirectory\\' => 18,
+            'FoF\\UserBio\\' => 12,
+            'FoF\\Pages\\' => 10,
             'FoF\\Links\\' => 10,
             'FoF\\Linguist\\' => 13,
             'Flarum\\Tags\\' => 12,
@@ -501,6 +503,14 @@ class ComposerStaticInitaabe46ab1437c25f330ce304b29e382a
         'FoF\\UserDirectory\\' => 
         array (
             0 => __DIR__ . '/..' . '/fof/user-directory/src',
+        ),
+        'FoF\\UserBio\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/user-bio/src',
+        ),
+        'FoF\\Pages\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/pages/src',
         ),
         'FoF\\Links\\' => 
         array (

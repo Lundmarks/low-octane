@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e5d6a90f89d6d0841c681b90eca16f9",
+    "content-hash": "a587743d3e51cf7565c3cb5313f2bb45",
     "packages": [
         {
             "name": "alexanderomara/flarum-gravatar",
@@ -2090,6 +2090,137 @@
                 }
             ],
             "time": "2020-12-16T10:16:11+00:00"
+        },
+        {
+            "name": "fof/pages",
+            "version": "0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/pages.git",
+                "reference": "08154f2d6bbf8b91d660e9168b7233e123dddfc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/pages/zipball/08154f2d6bbf8b91d660e9168b7233e123dddfc4",
+                "reference": "08154f2d6bbf8b91d660e9168b7233e123dddfc4",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.15"
+            },
+            "replace": {
+                "sijad/flarum-ext-pages": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Pages",
+                    "category": "feature",
+                    "icon": {
+                        "name": "far fa-file-alt",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/18301"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Pages\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sajjad Hashemian",
+                    "email": "wolaws@gmail.com"
+                },
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "david.s@redevs.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Create custom pages with Flarum",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "flarum"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "time": "2020-12-16T10:37:27+00:00"
+        },
+        {
+            "name": "fof/user-bio",
+            "version": "0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/user-bio.git",
+                "reference": "ef78ffe75e5907f65301f7edcdf25311b8f0bc99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/user-bio/zipball/ef78ffe75e5907f65301f7edcdf25311b8f0bc99",
+                "reference": "ef78ffe75e5907f65301f7edcdf25311b8f0bc99",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.15"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF User Bio",
+                    "category": "feature",
+                    "icon": {
+                        "name": "fas fa-pen",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/17775"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\UserBio\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Charlie K",
+                    "email": "charlie.k@redevs.org",
+                    "homepage": "https://redevs.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Add a user bio to user profiles",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "Friends of Flarum",
+                "flarum"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "time": "2020-12-22T21:30:15+00:00"
         },
         {
             "name": "fof/user-directory",

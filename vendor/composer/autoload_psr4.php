@@ -80,6 +80,8 @@ return array(
     'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
     'Franzl\\Middleware\\Whoops\\' => array($vendorDir . '/franzl/whoops-middleware/src'),
     'FoF\\UserDirectory\\' => array($vendorDir . '/fof/user-directory/src'),
+    'FoF\\UserBio\\' => array($vendorDir . '/fof/user-bio/src'),
+    'FoF\\Pages\\' => array($vendorDir . '/fof/pages/src'),
     'FoF\\Links\\' => array($vendorDir . '/fof/links/src'),
     'FoF\\Linguist\\' => array($vendorDir . '/fof/linguist/src'),
     'Flarum\\Tags\\' => array($vendorDir . '/flarum/tags/src'),
