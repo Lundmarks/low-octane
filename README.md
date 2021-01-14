@@ -1,7 +1,8 @@
 # Low Octane@GitHub
-## CI
+## Continuous Integration
 
-//To be implemented
+[![Build Status](https://scrutinizer-ci.com/g/Lundmarks/low-octane/badges/build.png?b=main)](https://scrutinizer-ci.com/g/Lundmarks/low-octane/build-status/main) [![CircleCI](https://circleci.com/gh/Lundmarks/low-octane.svg?style=svg)](https://app.circleci.com/pipelines/github/Lundmarks/low-octane)
+
 
 ## About Low Octane
 
