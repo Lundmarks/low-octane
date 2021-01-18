@@ -5,7 +5,7 @@ use Symfony\Component\Translation\MessageCatalogue;
 $catalogue = new MessageCatalogue('de', array (
   'messages' => 
   array (
-    'core.admin.add_extension.developer_text' => 'Om du är en utvecklare kan du <a>läsa vår dokumentation</a> och bygga dina egna tillägg.',
+    'core.admin.add_extension.developer_text' => 'Om du är en utvecklare kan du <a>läsa vår dokumentation</a> och bygga dina egna tillägg',
     'core.admin.add_extension.install_text' => 'Du kan leta efter tillägg på <a>Flarums Community sida</a> och installera dem manuellt med hjälp av Composer.',
     'core.admin.add_extension.temporary_text' => 'Inom en snar framtid kommer den här dialogen att låta dig enkelt installera tillägg. Vi håller just nu på att bygga ett ekosystem!',
     'core.admin.add_extension.title' => 'Lägg till Tillägg',
@@ -1487,7 +1487,7 @@ You won\'t receive any more notifications about this discussion until you\'re up
     'fof-user-bio.admin.permission.editOwn' => 'Edit own bio',
     'fof-user-bio.admin.permission.editAny' => 'Edit any bio',
     'fof-user-bio.forum.userbioPlaceholder' => 'Skriv någonting om dig själv..',
-    'core.admin.add_extension.developer_text' => 'Om du är en utvecklare kan du <a>läsa vår dokumentation</a> och bygga dina egna tillägg.',
+    'core.admin.add_extension.developer_text' => 'Om du är en utvecklare kan du <a>läsa vår dokumentation</a> och bygga dina egna tillägg',
   ),
 ));
 $catalogue->addFallbackCatalogue($catalogueEn);

@@ -1,6 +1,6 @@
 <?php return array (
   'debug' => false,
-  'database' => 
+  'database' =>
   array (
     'driver' => 'mysql',
     'host' => '127.0.0.1',
@@ -15,8 +15,9 @@
     'engine' => 'InnoDB',
     'prefix_indexes' => true,
   ),
+  // 'url' => 'http://www.student.bth.se/~ollu19/dbwebb-kurser/ramverk1/me/kmom10/low-octane/public/',
   'url' => 'http://localhost:8080/dbwebb/ramverk1/me/kmom10/low-octane/public',
-  'paths' => 
+  'paths' =>
   array (
     'api' => 'api',
     'admin' => 'admin',
